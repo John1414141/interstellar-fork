@@ -12,7 +12,7 @@ const bareServer = createBareServer('/outerspace/');
 const PORT = 8080;
 app.use(basicAuth({
   challenge: true,
-  users: { '1712132': 'abcd' },
+  users: { 'getout': 'noneofyourbusiness' },
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
